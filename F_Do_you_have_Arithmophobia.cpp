@@ -14,11 +14,8 @@ bool isPalindrome(int n){
     string tmp = to_string(n), _tmp = tmp;
     reverse(tmp.begin(), tmp.end());
 
-    if(tmp == _tmp){
-        return true;
-    }else{
-        return false;
-    }
+    if(tmp == _tmp) return true;
+    else return false;
 
 }
 
